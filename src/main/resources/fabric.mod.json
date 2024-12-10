@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 1,
+  "id": "${id}",
+  "version": "${version}",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+    ],
+    "client": [
+    ]
+  },
+  "depends": {
+    "fabricloader": "*"
+  },
+  "name": "ResourcePack Fix",
+  "description": "Fixes a bug which causes server resource packs to be discarded when transferring from the configuration phase.",
+  "contact": {},
+  "mixins": [
+    "resourcepackfix.mixins.json"
+  ],
+  "authors": []
+}
